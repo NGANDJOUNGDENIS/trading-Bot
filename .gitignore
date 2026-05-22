@@ -1,0 +1,61 @@
+```
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+.env.local.*
+.env.vault
+.venv.bak/
+.python-version
+requirements-local.txt
+requirements-dev.txt
+requirements-test.txt
+requirements-prod.txt
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+*.so
+.libs/
+
+# Logs
+*.log
+logs/
+*.out
+*.pid
+
+# Testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.hypothesis/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Icon?
+*/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+```
